@@ -5,8 +5,11 @@ body {
 h1 {
   font-size: 50px;
 }
+h2 {
+  font-size: 40px;
+}
 .HeadingNameHighlight {
-  color: rgba(6, 30, 245, 0.63);
+  color: rgba(0, 24, 238, 0.89);
 }
 .half-width {
   width: 40%;
@@ -23,12 +26,63 @@ h1 {
 }
 section {
   height: 500px;
+  color: rgb(0, 0, 0);
+  color: 255, 255, 255, 99;
+  padding-bottom: 20px;
 }
 .Link-Button {
   text-decoration: none;
   background-image: linear-gradient(rgb(98, 98, 247), rgb(5, 40, 235));
   padding: 10px 20px;
   color: aliceblue;
-  border-radius: 7%;
+  border-radius: 10px;
   font-weight: bolder;
+}
+.Middle-Banner {
+  background-image: url(Images/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.Bottom-Banner {
+  margin-top: 180px;
+  background-image: url(Images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+.Bottom-Banner-h3-highlighter {
+  color: rgba(253, 173, 1, 0.973);
+ font-weight: bolder;
+}
+.Box-Shadow {
+  box-shadow: 10px 10px 40px gray;
+  border-radius: 20px
+  height : 60px;
+  background-color : white;
+}
+#Full-Stack{
+  border-left: 7px solid;
+  border-image: linear-gradient(lightSalmon,tomato);
+  border-image-slice: 25;
+  color: blue;
+}
+#Full-Stack p{
+  color: black;
+  font-weight: bold;
+}
+#Baby-Web{
+  border-left: 7px solid;
+  border-image: linear-gradient(blue,cyan);
+  border-image-slice: 25;
+  color: blue;
+}
+#Baby-Web p{
+color: black;
+font-weight: bold;
+}
+
+footer p{
+  text-align: center;
+  color: gray;
+  font-weight: bold;
+  
 }
